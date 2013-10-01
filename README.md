@@ -1,1 +1,1 @@
-read me 
+read me  do you 认知中文
