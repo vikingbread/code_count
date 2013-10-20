@@ -1,7 +1,6 @@
 package test;
 
 import java.io.File;
-import java.util.Scanner;
 
 import org.junit.Test;
 
@@ -16,11 +15,10 @@ import service.iml.WhileLinesConter;
  */
 public class TestLinesCounter {
 	
-	
 	@Test
 	public void testRecursionLinesCounter() throws Exception{
 		
-		File directory = new File("../testProject");		
+		File directory = new File("E:\\MyEclipse WorkSpace");		
 		LinesCounter counter = new RecursionLinesCounter();
 		int lines = counter.countTotalLines(directory);
 		System.out.println("total lines : " + lines);
